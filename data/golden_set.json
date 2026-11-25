@@ -1,0 +1,42 @@
+[
+  {
+    "pregunta": "¿Cómo recorrer archivos Markdown recursivamente con objetos Path?",
+    "documento_id_esperado": "pathlib",
+    "documentos_relevantes": [
+      "pathlib"
+    ],
+    "respuesta_referencia": "Usar Path.rglob con el patrón *.md."
+  },
+  {
+    "pregunta": "¿Cómo serializar JSON preservando caracteres en español?",
+    "documento_id_esperado": "json",
+    "documentos_relevantes": [
+      "json"
+    ],
+    "respuesta_referencia": "Usar json.dumps con ensure_ascii=False y UTF-8 al escribir."
+  },
+  {
+    "pregunta": "¿Cómo registrar el traceback de una excepción?",
+    "documento_id_esperado": "logging",
+    "documentos_relevantes": [
+      "logging"
+    ],
+    "respuesta_referencia": "Usar logger.exception dentro del bloque except."
+  },
+  {
+    "pregunta": "¿Cómo declarar una bandera booleana en una CLI?",
+    "documento_id_esperado": "argparse",
+    "documentos_relevantes": [
+      "argparse"
+    ],
+    "respuesta_referencia": "Usar add_argument con action=\"store_true\"."
+  },
+  {
+    "pregunta": "¿Cómo evitar concatenar valores del usuario en consultas SQL?",
+    "documento_id_esperado": "sqlite3",
+    "documentos_relevantes": [
+      "sqlite3"
+    ],
+    "respuesta_referencia": "Utilizar placeholders y parámetros en execute."
+  }
+]
